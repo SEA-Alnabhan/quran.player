@@ -78,7 +78,7 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           # The action lowercases the repository name automatically,
-          # which is required by GHCR (BasselAlnabhan → basselalnabhan).
+          # which is required by GHCR (SEA-Alnabhan → sea-alnabhan).
           images: ghcr.io/${{ github.repository }}
           tags: |
             type=raw,value=latest
